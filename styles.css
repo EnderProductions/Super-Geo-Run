@@ -1,0 +1,24 @@
+body{
+    background:black;
+    text-align: center;
+}
+h1, p{
+    color:white;
+}
+#canvas1{
+    background:transparent;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:5px solid white;
+}
+#playerImage, #backgroundImage, #enemyImage, #triviaImage{
+    display: none;
+}
+#start-over{
+    position:absolute;
+    bottom:0;
+    left:50;
+    transform:translate(0,-50%);
+}
